@@ -1,0 +1,29 @@
+# Data (large, downloadable, regenerable — never commit)
+dataset/
+data/
+*.zip
+
+# Model weights (large binaries — never commit; commit the config instead)
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Training outputs that are regenerable
+runs/
+logs/
+*.png
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Editors
+.vscode/
+.idea/
+
+# OS
+.DS_Store
