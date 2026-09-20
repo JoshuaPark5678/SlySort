@@ -1,0 +1,5 @@
+source: "https://github.com/pedropro/TACO"
+source_date: "2026-09-20"
+annotations: "data/upstream/data/annotations.json"
+seed: 42
+notes: "59 categories observed, top Cigarette 667, long tail under 100, merge undecided"
