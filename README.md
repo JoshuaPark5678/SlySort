@@ -1,4 +1,4 @@
-# SlySort — Waste Sorter
+# SlySort: Waste Sorter
 
 Clean rebuild of a high-school project (originally GarbSort, vibe-coded).
 Goal: an honest, well-documented waste classifier with numbers I can defend.
