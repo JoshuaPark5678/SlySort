@@ -22,7 +22,7 @@ import yaml
 with open(cfg_path, "r") as file:
     seed = yaml.safe_load(file)["seed"]
 
-random.Random(42).shuffle(image_ids)
+random.Random(seed).shuffle(image_ids)
 
 # print(image_ids)
 
